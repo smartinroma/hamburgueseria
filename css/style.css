@@ -376,3 +376,272 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img{
 }
 
 /* Fin main section About us */
+
+/* Inicio main menu */
+
+#carta{
+    background-color: var(--color-secundario);
+    width: 100%;
+}
+
+main div {
+    flex-wrap: wrap;
+    padding: 1em 0.825em;;
+}
+
+main div h2{
+    color: white;
+    font-family: var(--fuenteSecundaria);
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+
+}
+
+main div h2 span{
+    color: var(--color-principal);
+}
+
+main div .underline{
+    position: relative;
+    width: 5em;
+    margin: 0 auto;
+    color: var(--color-principal);
+    font-weight: 700;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+main div .underline hr{
+    position: absolute;
+    width: 100%;
+    top: -1px;
+    border-color: var(--color-principal);
+}
+
+main .container .row aside{
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+main .container .row #menu{
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+main aside nav{
+    width: 100%;
+}
+
+main aside nav ul{
+    width: 100%;
+}
+
+main aside nav ul li{
+    margin: 1em;
+    width: 100%;
+}
+
+main aside nav ul li:hover{
+    border-radius: 20%;
+}
+
+main aside nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+    width: 100%;
+    display: block;
+    
+}
+
+main aside nav ul li a:hover{
+    background-color: var(--color-principal);
+    width: 100%;
+}
+
+main aside h3{
+    color: white;
+    margin-top: 4em;
+    padding: 0.5em 0;
+    font-weight: 700;
+}
+
+main aside .underline{
+    border-color: var(--color-principal);
+    position: absolute;
+}
+
+main aside p{
+    color: white;
+    padding: 0.5em 0;
+    font-weight: 400;
+}
+
+
+main #menu article h3{
+    color: white;
+    font-weight: 700;
+}
+
+main #menu article p{
+    color: white;
+    font-weight: 400;
+}
+
+main #menu article div{
+    color: var(--color-principal);
+}
+
+
+
+@media(min-width: 62.750em){
+    main aside{
+        width: 30%;
+        float: left;
+    }
+
+    main #menu{
+        width: 60%;
+        float: left;
+    }
+
+    main #menu article img{
+        width: 30%;
+        float: left;
+        margin: 0 1em 0 0;
+    }
+}
+
+
+/* Fin main menu */
+
+/* Inicio blog */
+
+main #blog div h2{
+    color: black;
+    font-family: var(--fuenteSecundaria);
+    font-size: 2em;
+    text-align: center;
+}
+
+main #blog div h2 span{
+    color: var(--color-principal);
+}
+
+main #blog .underline{
+    position: relative;
+    width: 5em;
+    margin: 0 auto;
+    color: var(--color-principal);
+    font-weight: 700;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+main #blog .underline hr{
+    position: absolute;
+    width: 100%;
+    top: -1px;
+    border-color: var(--color-principal);
+}
+
+main #blog{
+    width: 100%;
+}
+
+main #blog .row{
+    flex-wrap: wrap;
+}
+
+main #blog article{
+    width: 45%;
+    margin: 0 auto;
+    padding: 1.825em 0;
+    float: left;
+}
+
+main #blog article h3{
+    font-weight: bold;
+    padding: 1em;
+}
+
+main #blog article .posted{
+    color: var(--color-principal);
+    font-weight: 700;
+    padding: 1em;
+}
+
+main #blog article p{
+    font-weight: 400;
+    padding: 1em;
+}
+
+main #blog article div{
+    color: var(--color-principal);
+}
+
+main #blog article .enlace{
+    padding: 1em;
+}
+
+main #blog article #fecha1{
+    position: absolute;
+    top: 523px;
+    left: 223px;
+    background-color: var(--color-principal);
+    color: white;
+    font-weight: bold;
+    max-width: 14%;
+    padding: 20px 15px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+main #blog article #fecha2{
+    position: absolute;
+    top: 1004px;
+    left: 50px;
+    background-color: var(--color-principal);
+    color: white;
+    font-weight: bold;
+    max-width: 14%;
+    padding: 20px 15px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+main #blog article #fecha3{
+    position: absolute;
+    top: 1004px;
+    left: 248px;
+    background-color: var(--color-principal);
+    color: white;
+    font-weight: bold;
+    max-width: 14%;
+    padding: 20px 15px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+@media(min-width: 62.750em){
+    main #blog article{
+        width: 30%;
+    }
+
+    main #blog article #fecha1{
+        top: 241px;
+        left: 527px;
+    }
+    main #blog article #fecha2{
+        top: 241px;
+        left: 856px;
+    }
+
+    main #blog article #fecha3{
+        top: 241px;
+        left: 1185px;
+    }
+}
+
+/* Fin blog */
