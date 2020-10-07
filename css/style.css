@@ -415,7 +415,7 @@ main div .underline{
 main div .underline hr{
     position: absolute;
     width: 100%;
-    top: -1px;
+    /* top: -1px; */
     border-color: var(--color-principal);}
 
 main .container .row aside{
@@ -541,7 +541,7 @@ main #blog .underline{
 main #blog .underline hr{
     position: absolute;
     width: 100%;
-    top: -1px;
+    /* top: -1px; */
     border-color: var(--color-principal);
 }
 
@@ -553,7 +553,11 @@ main #blog .row{
     flex-wrap: wrap;
 }
 
-main #blog article{
+main #blog #articulos{
+    width: 100%;
+}
+
+main #blog #articulos article{
     width: 45%;
     margin: 0 auto;
     padding: 1.825em 0;
@@ -586,8 +590,8 @@ main #blog article .enlace{
 
 main #blog article #fecha1{
     position: absolute;
-    top: 523px;
-    left: 223px;
+    top: 619px;
+    left: 53px;
     background-color: var(--color-principal);
     color: white;
     font-weight: bold;
@@ -599,8 +603,8 @@ main #blog article #fecha1{
 
 main #blog article #fecha2{
     position: absolute;
-    top: 1004px;
-    left: 50px;
+    top: 1108px;
+    left: 53px;
     background-color: var(--color-principal);
     color: white;
     font-weight: bold;
@@ -612,8 +616,8 @@ main #blog article #fecha2{
 
 main #blog article #fecha3{
     position: absolute;
-    top: 1004px;
-    left: 248px;
+    top: 619px;
+    left: 219px;
     background-color: var(--color-principal);
     color: white;
     font-weight: bold;
@@ -624,22 +628,22 @@ main #blog article #fecha3{
 }
 
 @media(min-width: 62.750em){
-    main #blog article{
-        width: 30%;
+    main #blog #articulos article{
+        width: 33%;
     }
 
     main #blog article #fecha1{
-        top: 241px;
-        left: 527px;
+        top: 337px;
+        left: 209px;
     }
     main #blog article #fecha2{
-        top: 241px;
-        left: 856px;
+        top: 337px;
+        left: 555px;
     }
 
     main #blog article #fecha3{
-        top: 241px;
-        left: 1185px;
+        top: 337px;
+        left: 900px;
     }
 }
 
